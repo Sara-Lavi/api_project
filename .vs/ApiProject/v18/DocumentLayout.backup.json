@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ApiProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|e:\\apiproject\\apiproject\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|e:\\apiproject\\apiproject\\wwwroot\\update.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\wwwroot\\update.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|e:\\apiproject\\apiproject\\wwwroot\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\wwwroot\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|e:\\apiproject\\apiproject\\user.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\user.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|e:\\apiproject\\apiproject\\wwwroot\\update.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\wwwroot\\update.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|e:\\apiproject\\apiproject\\wwwroot\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\wwwroot\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|e:\\apiproject\\apiproject\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|e:\\apiproject\\apiproject\\userslogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\userslogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|e:\\apiproject\\apiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 269,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "update.js",
+              "DocumentMoniker": "E:\\ApiProject\\ApiProject\\wwwroot\\update.js",
+              "RelativeDocumentMoniker": "ApiProject\\wwwroot\\update.js",
+              "ToolTip": "E:\\ApiProject\\ApiProject\\wwwroot\\update.js",
+              "RelativeToolTip": "ApiProject\\wwwroot\\update.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-10-22T11:27:04.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "update.html",
+              "DocumentMoniker": "E:\\ApiProject\\ApiProject\\wwwroot\\update.html",
+              "RelativeDocumentMoniker": "ApiProject\\wwwroot\\update.html",
+              "ToolTip": "E:\\ApiProject\\ApiProject\\wwwroot\\update.html",
+              "RelativeToolTip": "ApiProject\\wwwroot\\update.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-22T11:01:26.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "home.js",
+              "DocumentMoniker": "E:\\ApiProject\\ApiProject\\wwwroot\\home.js",
+              "RelativeDocumentMoniker": "ApiProject\\wwwroot\\home.js",
+              "ToolTip": "E:\\ApiProject\\ApiProject\\wwwroot\\home.js",
+              "RelativeToolTip": "ApiProject\\wwwroot\\home.js",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-10-22T09:57:44.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "home.html",
+              "DocumentMoniker": "E:\\ApiProject\\ApiProject\\wwwroot\\home.html",
+              "RelativeDocumentMoniker": "ApiProject\\wwwroot\\home.html",
+              "ToolTip": "E:\\ApiProject\\ApiProject\\wwwroot\\home.html",
+              "RelativeToolTip": "ApiProject\\wwwroot\\home.html",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowCwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-22T11:02:56.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "user.txt",
+              "DocumentMoniker": "E:\\ApiProject\\ApiProject\\user.txt",
+              "RelativeDocumentMoniker": "ApiProject\\user.txt",
+              "ToolTip": "E:\\ApiProject\\ApiProject\\user.txt",
+              "RelativeToolTip": "ApiProject\\user.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-10-22T09:57:44.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Users.cs",
+              "DocumentMoniker": "E:\\ApiProject\\ApiProject\\Users.cs",
+              "RelativeDocumentMoniker": "ApiProject\\Users.cs",
+              "ToolTip": "E:\\ApiProject\\ApiProject\\Users.cs",
+              "RelativeToolTip": "ApiProject\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T09:57:44.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "E:\\ApiProject\\ApiProject\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "ApiProject\\Controllers\\UsersController.cs",
+              "ToolTip": "E:\\ApiProject\\ApiProject\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "ApiProject\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAuwDQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T09:57:44.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsersLogin.cs",
+              "DocumentMoniker": "E:\\ApiProject\\ApiProject\\UsersLogin.cs",
+              "RelativeDocumentMoniker": "ApiProject\\UsersLogin.cs",
+              "ToolTip": "E:\\ApiProject\\ApiProject\\UsersLogin.cs",
+              "RelativeToolTip": "ApiProject\\UsersLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T09:57:44.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ApiProject\\ApiProject\\Program.cs",
+              "RelativeDocumentMoniker": "ApiProject\\Program.cs",
+              "ToolTip": "E:\\ApiProject\\ApiProject\\Program.cs",
+              "RelativeToolTip": "ApiProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T09:57:44.592Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

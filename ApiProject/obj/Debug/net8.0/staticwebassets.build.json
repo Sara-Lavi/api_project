@@ -1,0 +1,434 @@
+{
+  "Version": 1,
+  "Hash": "gvC9kSEUoLpEFBLpAc1dN/cB+chHcILhBLnJ+oHwM5s=",
+  "Source": "ApiProject",
+  "BasePath": "_content/ApiProject",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ApiProject\\wwwroot",
+      "Source": "ApiProject",
+      "ContentRoot": "E:\\ApiProject\\ApiProject\\wwwroot\\",
+      "BasePath": "_content/ApiProject",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\ApiProject\\ApiProject\\wwwroot\\home.html",
+      "SourceId": "ApiProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ApiProject\\ApiProject\\wwwroot\\",
+      "BasePath": "_content/ApiProject",
+      "RelativePath": "home#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zrgreti0ln",
+      "Integrity": "rw8/lUwz91BA8/fUiSGSIfMZOyEN81rq50Jhdh/3Viw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\home.html"
+    },
+    {
+      "Identity": "E:\\ApiProject\\ApiProject\\wwwroot\\home.js",
+      "SourceId": "ApiProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ApiProject\\ApiProject\\wwwroot\\",
+      "BasePath": "_content/ApiProject",
+      "RelativePath": "home#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nlnw2nyx3f",
+      "Integrity": "hWJbYlzx13n+oNZZaVB4B2We3wnxPZf1W3bhgOoa4I8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\home.js"
+    },
+    {
+      "Identity": "E:\\ApiProject\\ApiProject\\wwwroot\\update.html",
+      "SourceId": "ApiProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ApiProject\\ApiProject\\wwwroot\\",
+      "BasePath": "_content/ApiProject",
+      "RelativePath": "update#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "12pdqs5dgv",
+      "Integrity": "52VhdWT26R+kh1+y9ZSHJ76tkTHSe5JAWzIeFBOO+s0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\update.html"
+    },
+    {
+      "Identity": "E:\\ApiProject\\ApiProject\\wwwroot\\update.js",
+      "SourceId": "ApiProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ApiProject\\ApiProject\\wwwroot\\",
+      "BasePath": "_content/ApiProject",
+      "RelativePath": "update#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lsa1fmm3ib",
+      "Integrity": "5ZOv0WkBFAACo9oMEDx1hh15lYpohNDwzWai9/NgiKU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\update.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "home.html",
+      "AssetFile": "E:\\ApiProject\\ApiProject\\wwwroot\\home.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1135"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rw8/lUwz91BA8/fUiSGSIfMZOyEN81rq50Jhdh/3Viw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 Oct 2026 11:22:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rw8/lUwz91BA8/fUiSGSIfMZOyEN81rq50Jhdh/3Viw="
+        }
+      ]
+    },
+    {
+      "Route": "home.js",
+      "AssetFile": "E:\\ApiProject\\ApiProject\\wwwroot\\home.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1669"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hWJbYlzx13n+oNZZaVB4B2We3wnxPZf1W3bhgOoa4I8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 Oct 2026 11:59:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hWJbYlzx13n+oNZZaVB4B2We3wnxPZf1W3bhgOoa4I8="
+        }
+      ]
+    },
+    {
+      "Route": "home.nlnw2nyx3f.js",
+      "AssetFile": "E:\\ApiProject\\ApiProject\\wwwroot\\home.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1669"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hWJbYlzx13n+oNZZaVB4B2We3wnxPZf1W3bhgOoa4I8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 Oct 2026 11:59:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nlnw2nyx3f"
+        },
+        {
+          "Name": "label",
+          "Value": "home.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hWJbYlzx13n+oNZZaVB4B2We3wnxPZf1W3bhgOoa4I8="
+        }
+      ]
+    },
+    {
+      "Route": "home.zrgreti0ln.html",
+      "AssetFile": "E:\\ApiProject\\ApiProject\\wwwroot\\home.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1135"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rw8/lUwz91BA8/fUiSGSIfMZOyEN81rq50Jhdh/3Viw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 Oct 2026 11:22:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zrgreti0ln"
+        },
+        {
+          "Name": "label",
+          "Value": "home.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rw8/lUwz91BA8/fUiSGSIfMZOyEN81rq50Jhdh/3Viw="
+        }
+      ]
+    },
+    {
+      "Route": "update.12pdqs5dgv.html",
+      "AssetFile": "E:\\ApiProject\\ApiProject\\wwwroot\\update.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "901"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"52VhdWT26R+kh1+y9ZSHJ76tkTHSe5JAWzIeFBOO+s0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 Oct 2026 12:41:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "12pdqs5dgv"
+        },
+        {
+          "Name": "label",
+          "Value": "update.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-52VhdWT26R+kh1+y9ZSHJ76tkTHSe5JAWzIeFBOO+s0="
+        }
+      ]
+    },
+    {
+      "Route": "update.html",
+      "AssetFile": "E:\\ApiProject\\ApiProject\\wwwroot\\update.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "901"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"52VhdWT26R+kh1+y9ZSHJ76tkTHSe5JAWzIeFBOO+s0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 Oct 2026 12:41:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-52VhdWT26R+kh1+y9ZSHJ76tkTHSe5JAWzIeFBOO+s0="
+        }
+      ]
+    },
+    {
+      "Route": "update.js",
+      "AssetFile": "E:\\ApiProject\\ApiProject\\wwwroot\\update.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1701"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5ZOv0WkBFAACo9oMEDx1hh15lYpohNDwzWai9/NgiKU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 Oct 2026 14:23:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5ZOv0WkBFAACo9oMEDx1hh15lYpohNDwzWai9/NgiKU="
+        }
+      ]
+    },
+    {
+      "Route": "update.lsa1fmm3ib.js",
+      "AssetFile": "E:\\ApiProject\\ApiProject\\wwwroot\\update.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1701"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5ZOv0WkBFAACo9oMEDx1hh15lYpohNDwzWai9/NgiKU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 Oct 2026 14:23:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lsa1fmm3ib"
+        },
+        {
+          "Name": "label",
+          "Value": "update.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5ZOv0WkBFAACo9oMEDx1hh15lYpohNDwzWai9/NgiKU="
+        }
+      ]
+    }
+  ]
+}
