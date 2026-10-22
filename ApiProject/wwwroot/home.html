@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body style="display:flex; flex-direction: row;">
+
+    <div style="margin:25px">
+
+        <label>email:</label>
+        <input id="Email" />
+        <br />
+        <br />
+        <label>password:</label>
+        <input id="Pass" type="password" />
+        <br />
+        <br />
+        <button onclick="login()">login</button>
+        <br />
+        <br />
+        <a onclick="enrollment()" href="#">enrollment</a>
+    </div>
+
+    <div style="margin:25px; display:none" id="enrollment">
+
+        <label>email:</label>
+        <input id="email" />
+        <br />
+        <br />
+        <label>password:</label>
+        <input type="password" id="pass" />
+        <br />
+        <br />
+        <label>first name:</label>
+        <input id="firstName" />
+        <br />
+        <br />
+        <label>last name:</label>
+        <input id="lastName" />
+        <br />
+        <br />
+        <button onclick="register()">send</button>
+
+    </div>
+
+
+    <script src="home.js"></script>
+
+</body>
+</html>
