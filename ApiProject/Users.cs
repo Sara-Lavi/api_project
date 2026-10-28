@@ -2,6 +2,7 @@
 
 namespace ApiProject
 {
+    //The class describes one user, so User is a clearer name than Users (and the file would be User.cs)
     public class Users
     {
         [Required]
