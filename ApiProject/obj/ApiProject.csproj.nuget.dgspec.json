@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ApiProject\\ApiProject\\ApiProject.csproj": {}
+    "D:\\ApiProject\\ApiProject\\ApiProject.csproj": {}
   },
   "projects": {
-    "E:\\ApiProject\\ApiProject\\ApiProject.csproj": {
+    "D:\\ApiProject\\ApiProject\\ApiProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ApiProject\\ApiProject\\ApiProject.csproj",
+        "projectUniqueName": "D:\\ApiProject\\ApiProject\\ApiProject.csproj",
         "projectName": "ApiProject",
-        "projectPath": "E:\\ApiProject\\ApiProject\\ApiProject.csproj",
+        "projectPath": "D:\\ApiProject\\ApiProject\\ApiProject.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\ApiProject\\ApiProject\\obj\\",
+        "outputPath": "D:\\ApiProject\\ApiProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,9 +51,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.QualityTools.Testing.Fakes": {
+              "target": "Package",
+              "version": "[17.5.0-beta.23060.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "zxcvbn-core": {
+              "target": "Package",
+              "version": "[7.0.92, )"
             }
           },
           "imports": [

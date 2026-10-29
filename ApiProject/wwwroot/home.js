@@ -64,3 +64,30 @@ const enrollment = () => {
     const enrollment = document.getElementById("enrollment")
     enrollment.style.display = 'block'
 }
+
+const check = async () => {
+
+    try {
+        const pass = document.getElementById("pass").value
+        const response = await fetch('api/Passwords', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(pass)
+        })
+
+        if (response.ok) {
+            score = await response.json()
+            const prog = document.getElementById("passProg")
+            prog.value = score
+        }
+
+        else {
+            throw new Error(response.status)
+        }
+    }
+    catch (e) {
+        alert(e.massage)
+    }
+}
