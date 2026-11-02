@@ -1,5 +1,5 @@
 ﻿using System.Text.Json;
-using Microsoft.AspNetCore.Http.HttpResults;
+//fix: Removed "using Microsoft.AspNetCore.Http.HttpResults;" - it was added by mistake and is not used
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -11,7 +11,8 @@ namespace ApiProject.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
-        static string filePath = "user.txt";
+        //fix: The path never changes, so it can be readonly
+        static readonly string filePath = "user.txt";
 
         // GET: api/<UsersController>
         [HttpGet]
@@ -22,6 +23,7 @@ namespace ApiProject.Controllers
 
         // GET api/<UsersController>/5
         [HttpGet("{id}")]
+        //Why isn't it implemented? It should read the file and return the user with this id (or NotFound / NoContent)
         public string Get(int id)
         {
             return "value";
@@ -39,6 +41,7 @@ namespace ApiProject.Controllers
         }
 
         [HttpPost("login")]
+        //In C#, parameters are written in camelCase (userLogin)
         public ActionResult Post([FromBody] UsersLogin userlogin)
         {
             using (StreamReader reader = System.IO.File.OpenText(filePath))
@@ -56,6 +59,8 @@ namespace ApiProject.Controllers
 
         // PUT api/<UsersController>/5
         [HttpPut("{id}")]
+        //The assignment asks PUT to return Ok(): change void to IActionResult and return Ok() at the end.
+        //The parameter is one user, so a name like userToUpdate is clearer than users
         public void Put(int id, [FromBody]Users users)
         {
             string textToReplace = string.Empty;
@@ -68,11 +73,17 @@ namespace ApiProject.Controllers
                     Users user =
                     JsonSerializer.Deserialize<Users>(currentUserInFile);
                     if (user.UserId == id)
+                    {
                         textToReplace = currentUserInFile;
+                        //fix: Found- break
+                        break;
+                    }
                 }
             }
             if(textToReplace != string.Empty)
 {
+                //fix: Keep the id, otherwise the updated user is saved without it
+                users.UserId = id;
                 string text = System.IO.File.ReadAllText(filePath);
                 text = text.Replace(textToReplace,
                 JsonSerializer.Serialize(users));

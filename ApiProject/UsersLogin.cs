@@ -2,6 +2,7 @@
 
 namespace ApiProject
 {
+    //A clearer name would be LoginUser (and the file would be LoginUser.cs)
     public class UsersLogin
     {
         [Required]
