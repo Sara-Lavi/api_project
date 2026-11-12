@@ -218,17 +218,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Users"
+                "$ref": "#/components/schemas/User"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Users"
+                "$ref": "#/components/schemas/User"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Users"
+                "$ref": "#/components/schemas/User"
               }
             }
           }
@@ -298,17 +298,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Users"
+                "$ref": "#/components/schemas/User"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Users"
+                "$ref": "#/components/schemas/User"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Users"
+                "$ref": "#/components/schemas/User"
               }
             }
           }
@@ -350,17 +350,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UsersLogin"
+                "$ref": "#/components/schemas/LoginUser"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/UsersLogin"
+                "$ref": "#/components/schemas/LoginUser"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/UsersLogin"
+                "$ref": "#/components/schemas/LoginUser"
               }
             }
           }
@@ -375,7 +375,26 @@
   },
   "components": {
     "schemas": {
-      "Users": {
+      "LoginUser": {
+        "required": [
+          "email",
+          "pass"
+        ],
+        "type": "object",
+        "properties": {
+          "email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "pass": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "User": {
         "required": [
           "email",
           "firstName",
@@ -404,25 +423,6 @@
           "userId": {
             "type": "integer",
             "format": "int32"
-          }
-        },
-        "additionalProperties": false
-      },
-      "UsersLogin": {
-        "required": [
-          "email",
-          "pass"
-        ],
-        "type": "object",
-        "properties": {
-          "email": {
-            "minLength": 1,
-            "type": "string",
-            "format": "email"
-          },
-          "pass": {
-            "minLength": 1,
-            "type": "string"
           }
         },
         "additionalProperties": false

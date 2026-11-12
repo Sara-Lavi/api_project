@@ -140,7 +140,7 @@
     "Parameters": [
       {
         "Name": "user",
-        "Type": "ApiProject.Users",
+        "Type": "ApiProject.Entities.User",
         "IsRequired": true
       }
     ],
@@ -186,18 +186,12 @@
         "IsRequired": true
       },
       {
-        "Name": "users",
-        "Type": "ApiProject.Users",
+        "Name": "user",
+        "Type": "ApiProject.Entities.User",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ApiProject.Controllers.UsersController",
@@ -231,7 +225,7 @@
     "Parameters": [
       {
         "Name": "userlogin",
-        "Type": "ApiProject.UsersLogin",
+        "Type": "ApiProject.Entities.LoginUser",
         "IsRequired": true
       }
     ],

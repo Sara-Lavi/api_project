@@ -1,19 +1,19 @@
 {
   "Files": [
     {
-      "Id": "E:\\ApiProject\\ApiProject\\wwwroot\\home.html",
+      "Id": "D:\\ApiProject\\ApiProject\\wwwroot\\home.html",
       "PackagePath": "staticwebassets\\home.html"
     },
     {
-      "Id": "E:\\ApiProject\\ApiProject\\wwwroot\\home.js",
+      "Id": "D:\\ApiProject\\ApiProject\\wwwroot\\home.js",
       "PackagePath": "staticwebassets\\home.js"
     },
     {
-      "Id": "E:\\ApiProject\\ApiProject\\wwwroot\\update.html",
+      "Id": "D:\\ApiProject\\ApiProject\\wwwroot\\update.html",
       "PackagePath": "staticwebassets\\update.html"
     },
     {
-      "Id": "E:\\ApiProject\\ApiProject\\wwwroot\\update.js",
+      "Id": "D:\\ApiProject\\ApiProject\\wwwroot\\update.js",
       "PackagePath": "staticwebassets\\update.js"
     },
     {

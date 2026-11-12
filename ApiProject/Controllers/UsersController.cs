@@ -1,6 +1,8 @@
 ﻿using System.Text.Json;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
+using ApiProject.Entities;
+using ApiProject.Services;
+using Zxcvbn;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -11,7 +13,14 @@ namespace ApiProject.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
-        static string filePath = "user.txt";
+        private readonly IUserService _userService;
+        private readonly IPasswordService _passwordService;
+
+        public UsersController(IUserService userService, IPasswordService passwordService)
+        {
+            _userService = userService;
+            _passwordService = passwordService;
+        }
 
         // GET: api/<UsersController>
         [HttpGet]
@@ -29,55 +38,47 @@ namespace ApiProject.Controllers
 
         // POST api/<UsersController>
         [HttpPost]
-        public ActionResult Post([FromBody]Users user)
+        public ActionResult Post([FromBody]User user)
         {
-            int numberOfUsers = System.IO.File.ReadLines(filePath).Count();
-            user.UserId = numberOfUsers + 1;
-            string userJson = JsonSerializer.Serialize(user);
-            System.IO.File.AppendAllText(filePath, userJson + Environment.NewLine);
-            return CreatedAtAction(nameof(Get), new { id = user.UserId }, user);
-        }
+            try
+            {
+                int  result = _passwordService.CheckStrongPass(user.Pass);
+                if (result < 3)
+                    throw new Exception("Password too weak");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            User user_1 = _userService.NewUser(user);
+            return CreatedAtAction(nameof(Get), new { id = user_1.UserId }, user_1);
+        }  
 
         [HttpPost("login")]
-        public ActionResult Post([FromBody] UsersLogin userlogin)
-        {
-            using (StreamReader reader = System.IO.File.OpenText(filePath))
-            {
-                string? currentUserInFile;
-                while ((currentUserInFile = reader.ReadLine()) != null)
-                {
-                    Users user = JsonSerializer.Deserialize<Users>(currentUserInFile);
-                    if (user.Email == userlogin.Email && user.Pass == userlogin.Pass)
-                        return Ok(user);
-                }
-            }
+        public ActionResult Post([FromBody] LoginUser userlogin)
+        { 
+            User user = _userService.Login(userlogin);
+            if(user != null)
+                return Ok(user);
             return NoContent();
         }
 
         // PUT api/<UsersController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody]Users users)
+        public IActionResult Put(int id, [FromBody]User user)
         {
-            string textToReplace = string.Empty;
-            using (StreamReader reader =
-            System.IO.File.OpenText(filePath))
+            try
             {
-                string currentUserInFile;
-                while ((currentUserInFile = reader.ReadLine()) != null)
-                {
-                    Users user =
-                    JsonSerializer.Deserialize<Users>(currentUserInFile);
-                    if (user.UserId == id)
-                        textToReplace = currentUserInFile;
-                }
+                int result = _passwordService.CheckStrongPass(user.Pass);
+                if (result < 3)
+                    throw new Exception("Password too weak");
             }
-            if(textToReplace != string.Empty)
-{
-                string text = System.IO.File.ReadAllText(filePath);
-                text = text.Replace(textToReplace,
-                JsonSerializer.Serialize(users));
-                System.IO.File.WriteAllText(filePath, text);
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
             }
+            _userService.Update(id, user);
+            return Ok();
         }
 
         // DELETE api/<UsersController>/5

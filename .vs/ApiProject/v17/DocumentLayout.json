@@ -1,34 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\ApiProject\\",
+  "WorkspaceRootPath": "D:\\ApiProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|e:\\apiproject\\apiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|e:\\apiproject\\apiproject\\userslogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\userslogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|e:\\apiproject\\apiproject\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|e:\\apiproject\\apiproject\\user.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|d:\\apiproject\\apiproject\\user.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\user.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|e:\\apiproject\\apiproject\\wwwroot\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|d:\\apiproject\\apiproject\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFCD609B-EAD3-417A-AF2D-133AE72DD458}|ApiProject.Services\\ApiProject.Services.csproj|d:\\apiproject\\apiproject.services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFCD609B-EAD3-417A-AF2D-133AE72DD458}|ApiProject.Services\\ApiProject.Services.csproj|solutionrelative:apiproject.services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFCD609B-EAD3-417A-AF2D-133AE72DD458}|ApiProject.Services\\ApiProject.Services.csproj|d:\\apiproject\\apiproject.services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFCD609B-EAD3-417A-AF2D-133AE72DD458}|ApiProject.Services\\ApiProject.Services.csproj|solutionrelative:apiproject.services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F012980-A6AC-4119-AE03-9D2F9B32D657}|ApiProject.Repositories\\ApiProject.Repositories.csproj|d:\\apiproject\\apiproject.repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F012980-A6AC-4119-AE03-9D2F9B32D657}|ApiProject.Repositories\\ApiProject.Repositories.csproj|solutionrelative:apiproject.repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|d:\\apiproject\\apiproject\\wwwroot\\update.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\wwwroot\\update.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|d:\\apiproject\\apiproject\\wwwroot\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\wwwroot\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|e:\\apiproject\\apiproject\\wwwroot\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\wwwroot\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DD1A2A33-7951-436B-8856-4CFF511A67B0}|ApiProject.Entity\\ApiProject.Entities.csproj|d:\\apiproject\\apiproject.entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1A2A33-7951-436B-8856-4CFF511A67B0}|ApiProject.Entity\\ApiProject.Entities.csproj|solutionrelative:apiproject.entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|e:\\apiproject\\apiproject\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|d:\\apiproject\\apiproject\\controllers\\passwordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB17EF21-DC53-4856-8D42-9345DBF17434}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\controllers\\passwordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,93 +45,125 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 269,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "update.js",
+              "DocumentMoniker": "D:\\ApiProject\\ApiProject\\wwwroot\\update.js",
+              "RelativeDocumentMoniker": "ApiProject\\wwwroot\\update.js",
+              "ToolTip": "D:\\ApiProject\\ApiProject\\wwwroot\\update.js",
+              "RelativeToolTip": "ApiProject\\wwwroot\\update.js",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-11-12T18:28:08.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "home.js",
+              "DocumentMoniker": "D:\\ApiProject\\ApiProject\\wwwroot\\home.js",
+              "RelativeDocumentMoniker": "ApiProject\\wwwroot\\home.js",
+              "ToolTip": "D:\\ApiProject\\ApiProject\\wwwroot\\home.js",
+              "RelativeToolTip": "ApiProject\\wwwroot\\home.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-11-12T17:48:28.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\ApiProject\\ApiProject\\Program.cs",
-              "RelativeDocumentMoniker": "ApiProject\\Program.cs",
-              "ToolTip": "E:\\ApiProject\\ApiProject\\Program.cs",
-              "RelativeToolTip": "ApiProject\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Title": "user.txt",
+              "DocumentMoniker": "D:\\ApiProject\\ApiProject\\user.txt",
+              "RelativeDocumentMoniker": "ApiProject\\user.txt",
+              "ToolTip": "D:\\ApiProject\\ApiProject\\user.txt",
+              "RelativeToolTip": "ApiProject\\user.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-11-12T17:41:24.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\ApiProject\\ApiProject.Entity\\User.cs",
+              "RelativeDocumentMoniker": "ApiProject.Entity\\User.cs",
+              "ToolTip": "D:\\ApiProject\\ApiProject.Entity\\User.cs",
+              "RelativeToolTip": "ApiProject.Entity\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T18:39:26.505Z",
+              "WhenOpened": "2026-11-12T16:48:24.447Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "user.txt",
-              "DocumentMoniker": "E:\\ApiProject\\ApiProject\\user.txt",
-              "RelativeDocumentMoniker": "ApiProject\\user.txt",
-              "ToolTip": "E:\\ApiProject\\ApiProject\\user.txt",
-              "RelativeToolTip": "ApiProject\\user.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-10-21T18:38:59.081Z"
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\ApiProject\\ApiProject.Services\\UserService.cs",
+              "RelativeDocumentMoniker": "ApiProject.Services\\UserService.cs",
+              "ToolTip": "D:\\ApiProject\\ApiProject.Services\\UserService.cs",
+              "RelativeToolTip": "ApiProject.Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T16:27:19.124Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "home.js",
-              "DocumentMoniker": "E:\\ApiProject\\ApiProject\\wwwroot\\home.js",
-              "RelativeDocumentMoniker": "ApiProject\\wwwroot\\home.js",
-              "ToolTip": "E:\\ApiProject\\ApiProject\\wwwroot\\home.js",
-              "RelativeToolTip": "ApiProject\\wwwroot\\home.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-10-21T18:36:21.594Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "home.html",
-              "DocumentMoniker": "E:\\ApiProject\\ApiProject\\wwwroot\\home.html",
-              "RelativeDocumentMoniker": "ApiProject\\wwwroot\\home.html",
-              "ToolTip": "E:\\ApiProject\\ApiProject\\wwwroot\\home.html",
-              "RelativeToolTip": "ApiProject\\wwwroot\\home.html",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-10-21T18:36:04.971Z"
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\ApiProject\\ApiProject.Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ApiProject.Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\ApiProject\\ApiProject.Repositories\\UserRepository.cs",
+              "RelativeToolTip": "ApiProject.Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T16:27:05.397Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UsersLogin.cs",
-              "DocumentMoniker": "E:\\ApiProject\\ApiProject\\UsersLogin.cs",
-              "RelativeDocumentMoniker": "ApiProject\\UsersLogin.cs",
-              "ToolTip": "E:\\ApiProject\\ApiProject\\UsersLogin.cs",
-              "RelativeToolTip": "ApiProject\\UsersLogin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\ApiProject\\ApiProject\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "ApiProject\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\ApiProject\\ApiProject\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "ApiProject\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAE4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T18:34:44.028Z"
+              "WhenOpened": "2026-11-12T16:26:34.71Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Users.cs",
-              "DocumentMoniker": "E:\\ApiProject\\ApiProject\\Users.cs",
-              "RelativeDocumentMoniker": "ApiProject\\Users.cs",
-              "ToolTip": "E:\\ApiProject\\ApiProject\\Users.cs",
-              "RelativeToolTip": "ApiProject\\Users.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Title": "PasswordService.cs",
+              "DocumentMoniker": "D:\\ApiProject\\ApiProject.Services\\PasswordService.cs",
+              "RelativeDocumentMoniker": "ApiProject.Services\\PasswordService.cs",
+              "ToolTip": "D:\\ApiProject\\ApiProject.Services\\PasswordService.cs",
+              "RelativeToolTip": "ApiProject.Services\\PasswordService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T18:34:18.869Z"
+              "WhenOpened": "2026-11-12T16:27:16.74Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "E:\\ApiProject\\ApiProject\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "ApiProject\\Controllers\\UsersController.cs",
-              "ToolTip": "E:\\ApiProject\\ApiProject\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "ApiProject\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwC8AAAAUAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "PasswordsController.cs",
+              "DocumentMoniker": "D:\\ApiProject\\ApiProject\\Controllers\\PasswordsController.cs",
+              "RelativeDocumentMoniker": "ApiProject\\Controllers\\PasswordsController.cs",
+              "ToolTip": "D:\\ApiProject\\ApiProject\\Controllers\\PasswordsController.cs",
+              "RelativeToolTip": "ApiProject\\Controllers\\PasswordsController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwA4AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T18:32:02.517Z"
+              "WhenOpened": "2026-11-05T01:32:14.039Z",
+              "EditorCaption": ""
             }
           ]
         }

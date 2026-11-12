@@ -16,4 +16,10 @@
     <PackageReference Include="zxcvbn-core" Version="7.0.92" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ApiProject.Entity\ApiProject.Entities.csproj" />
+    <ProjectReference Include="..\ApiProject.Repositories\ApiProject.Repositories.csproj" />
+    <ProjectReference Include="..\ApiProject.Services\ApiProject.Services.csproj" />
+  </ItemGroup>
+
 </Project>

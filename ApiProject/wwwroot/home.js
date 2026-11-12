@@ -16,18 +16,18 @@ const register = async () => {
             },
             body: JSON.stringify(userData)
         });
-
         if (response.ok) {
             alert("User succsesfuly addad")
         }
         else {
-            throw new ("Eror, Try again")
+            const dataUser = await response.json();
+
+            throw new Error(dataUser)
         }
     }
     catch (e) {
         alert(e.message)
     }
-
 }
 
 const login = async () => {

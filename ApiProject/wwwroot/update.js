@@ -49,7 +49,9 @@ const update = async () => {
             alert("The apdate succsesfuly")
         }
         else {
-            throw ("Error, try again")
+            const dataUser = await response.json();
+
+            throw new Error(dataUser)
         }
     }
     catch (e) {

@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ApiProject
+namespace ApiProject.Entities
 {
-    public class Users
+    public class User
     {
         [Required]
         [EmailAddress]

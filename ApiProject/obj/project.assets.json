@@ -286,6 +286,44 @@
             "related": ".xml"
           }
         }
+      },
+      "ApiProject.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ApiProject.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApiProject.Entities.dll": {}
+        }
+      },
+      "ApiProject.Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ApiProject.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ApiProject.Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApiProject.Repositories.dll": {}
+        }
+      },
+      "ApiProject.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ApiProject.Entities": "1.0.0",
+          "ApiProject.Repositories": "1.0.0",
+          "zxcvbn-core": "7.0.92"
+        },
+        "compile": {
+          "bin/placeholder/ApiProject.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApiProject.Services.dll": {}
+        }
       }
     }
   },
@@ -902,10 +940,28 @@
         "zxcvbn-core.7.0.92.nupkg.sha512",
         "zxcvbn-core.nuspec"
       ]
+    },
+    "ApiProject.Entities/1.0.0": {
+      "type": "project",
+      "path": "../ApiProject.Entity/ApiProject.Entities.csproj",
+      "msbuildProject": "../ApiProject.Entity/ApiProject.Entities.csproj"
+    },
+    "ApiProject.Repositories/1.0.0": {
+      "type": "project",
+      "path": "../ApiProject.Repositories/ApiProject.Repositories.csproj",
+      "msbuildProject": "../ApiProject.Repositories/ApiProject.Repositories.csproj"
+    },
+    "ApiProject.Services/1.0.0": {
+      "type": "project",
+      "path": "../ApiProject.Services/ApiProject.Services.csproj",
+      "msbuildProject": "../ApiProject.Services/ApiProject.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "ApiProject.Entities >= 1.0.0",
+      "ApiProject.Repositories >= 1.0.0",
+      "ApiProject.Services >= 1.0.0",
       "Microsoft.QualityTools.Testing.Fakes >= 17.5.0-beta.23060.1",
       "Swashbuckle.AspNetCore >= 6.6.2",
       "zxcvbn-core >= 7.0.92"
@@ -943,7 +999,17 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\ApiProject\\ApiProject.Entity\\ApiProject.Entities.csproj": {
+              "projectPath": "D:\\ApiProject\\ApiProject.Entity\\ApiProject.Entities.csproj"
+            },
+            "D:\\ApiProject\\ApiProject.Repositories\\ApiProject.Repositories.csproj": {
+              "projectPath": "D:\\ApiProject\\ApiProject.Repositories\\ApiProject.Repositories.csproj"
+            },
+            "D:\\ApiProject\\ApiProject.Services\\ApiProject.Services.csproj": {
+              "projectPath": "D:\\ApiProject\\ApiProject.Services\\ApiProject.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
