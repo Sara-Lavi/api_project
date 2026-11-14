@@ -33,6 +33,7 @@ namespace ApiProject.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
+            //Why is GET by id not implemented? The assignment asks it to return the user with this id (or NoContent when there is none)
             return "value";
         }
 
@@ -50,6 +51,7 @@ namespace ApiProject.Controllers
             {
                 return BadRequest(ex.Message);
             }
+            //In C#, local variables are written in camelCase: newUser
             User user_1 = _userService.NewUser(user);
             return CreatedAtAction(nameof(Get), new { id = user_1.UserId }, user_1);
         }  
