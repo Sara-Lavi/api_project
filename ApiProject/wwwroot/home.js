@@ -78,6 +78,7 @@ const check = async () => {
         })
 
         if (response.ok) {
+            //Is score declared anywhere? It is assigned here without a declaration
             score = await response.json()
             const prog = document.getElementById("passProg")
             prog.value = score
