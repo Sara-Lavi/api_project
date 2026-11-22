@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using ApiProject.Entities;
 using ApiProject.Services;
+//This using isn't used in this file: you can remove it
 using Zxcvbn;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -33,6 +34,7 @@ namespace ApiProject.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
+            //Return the user with this id here (or NoContent()) instead of this fixed string
             return "value";
         }
 
@@ -50,6 +52,7 @@ namespace ApiProject.Controllers
             {
                 return BadRequest(ex.Message);
             }
+            //In C#, local variables are written in camelCase: newUser
             User user_1 = _userService.NewUser(user);
             return CreatedAtAction(nameof(Get), new { id = user_1.UserId }, user_1);
         }  

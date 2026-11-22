@@ -52,6 +52,7 @@ const login = async () => {
             window.location.href = 'update.html'
         }
         else {
+            //What does this line throw? Check what 'new' is given here and what the error message should be
             throw new ("some error..")
         }
     }
@@ -78,6 +79,7 @@ const check = async () => {
         })
 
         if (response.ok) {
+            //Where is score declared? It is used here but never defined in this function
             score = await response.json()
             const prog = document.getElementById("passProg")
             prog.value = score
